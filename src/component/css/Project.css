@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box
+}
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    height: 140vh;
+    width: 100%;  
+}
+.Project_Intro{
+  color: white;
+}
+
+ 
+.Project_Button {
+  background-color: transparent;
+  display: flex;
+  width: 70%;
+  height: 50px;
+  border-radius: 2rem;
+  border: 3px solid white ;
+  z-index: 0;
+}
+ 
+
+.Button_Left:hover ,.Button_Right:hover{
+   background-color: white;
+   color: black;
+   transition:  ease-out 0.3s;
+}
+ 
+
+.active{
+  transition:  ease-out 0.3s;
+  background: linear-gradient( to right ,  rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+  }
+
+.Button_Left, .Button_Right{
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  background-color:transparent ;
+   display: block;
+
+
+}
+.ProjectCard{
+border: 1px solid white;
+width: 70%;
+height: 80%;
+
+}
+
+ 

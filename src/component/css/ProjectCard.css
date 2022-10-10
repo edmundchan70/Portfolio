@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+ 
+    border: 0;
+}
+
+.Project_Contiainer >div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    gap:50px;
+}
+.Project_Contiainer >section > p{
+    font-size: 200%;
+    margin-top: 20px;
+}

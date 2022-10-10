@@ -1,0 +1,62 @@
+ .About{
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  display: grid;
+  grid-column-start: 1;
+grid-column-end: 3;
+  grid-template-columns: 35% 50%;
+  place-items: center;
+ }
+ .Text_Container{
+  color: white; 
+  width: 350%;
+ }
+  
+ .About_Container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap:1.5rem;
+ 
+  
+ }
+ .About_Container>t {
+  color: white;
+ }
+.About_Block{
+  animation: fadeIn 2s;
+  background-color:gray;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  padding: 2.3rem;
+  text-align: center;
+}
+.Icon{
+  color: white;
+}
+ 
+.About_Block > button{
+  border: none;
+  background-color: transparent;
+}
+.School_Name:hover{
+  animation: animate 1s infinite;
+  color:white;
+}
+.Experience_Year:hover{
+  animation: pop 1s infinite; 
+  color: rgb(92, 255, 160);
+}
+.About_Project_Num:hover{
+  animation: pop 1.5s infinite;
+  color: white;
+}
+.Detail_about_me{
+  color: white;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+ 
