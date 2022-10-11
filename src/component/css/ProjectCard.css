@@ -1,6 +1,5 @@
 *{
     margin: 0;
- 
     border: 0;
 }
 
@@ -15,4 +14,28 @@
 .Project_Contiainer >section > p{
     font-size: 200%;
     margin-top: 20px;
+}
+img{
+   height: 100%;
+   width: 100%;
+   float: left;
+    object-fit:contain;
+}
+.Link{
+    visibility: hidden;
+    position: absolute;
+    top:33%;
+    margin-left:16%;
+}
+ 
+.Carousel_Component:hover .image{
+    opacity: 0.1;
+    }
+.Carousel_Component:hover .Link{
+       visibility: visible;
+
+        }
+ .rec.rec-dot {
+    margin-top: -150px;
+    visibility: ;
 }
