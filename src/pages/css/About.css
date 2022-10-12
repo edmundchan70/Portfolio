@@ -4,13 +4,27 @@
   z-index: 0;
   display: grid;
   grid-column-start: 1;
-grid-column-end: 3;
+ grid-column-end: 3;
   grid-template-columns: 35% 50%;
   place-items: center;
  }
  .Text_Container{
   color: white; 
   width: 350%;
+ }
+
+ .About > p {
+  position: absolute;
+  top:130% ;
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%) );
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 7vmin;
+  float:left;
  }
   
  .About_Container {
@@ -43,13 +57,23 @@ grid-column-end: 3;
   animation: animate 1s infinite;
   color:white;
 }
+.Experience_Year{
+  font-size: 70px;
+}
 .Experience_Year:hover{
   animation: pop 1s infinite; 
   color: rgb(92, 255, 160);
 }
+.About_Project_Num{
+  font-size: 7vmin;
+  float: right;
+
+}
 .About_Project_Num:hover{
   animation: pop 1.5s infinite;
-  color: white;
+background: linear-gradient( to right, hsl(98 100% 62%), hsl(204 100% 59%) );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .Detail_about_me{
   color: white;

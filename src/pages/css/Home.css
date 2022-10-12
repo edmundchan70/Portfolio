@@ -26,6 +26,7 @@
     
 }
  
+ 
 .text:hover{
     color: rgb(92, 255, 160);   
     animation: animate 0.6s;
@@ -57,7 +58,15 @@
 @keyframes pop {
     50%  {transform: scale(1.9);}
 }
- 
+.Pic_Container{
+  height: 100%;
+    width: 75%;
+}
+.Pic_Container>p{
+  z-index: 3;
+  color: white;
+   
+}
 
 .description_detail{
     display: flex;
@@ -75,9 +84,21 @@
      color: white;
      animation: pop 0.5s infinite; 
 }
+ .Home_random_pic{
+  height: 50%;
+  width: 25%;
+  z-index: 3;
+  top: 20%;
+  left: 70%;
+  position: absolute;
+  margin-right: 100px;
+  background-color: transparent;
+ }
+ .Home_random_pic > img{
+  
+  object-fit: contain
 
- 
- 
+ }
  
 .button-85 {
   padding: 1px 1.5px;

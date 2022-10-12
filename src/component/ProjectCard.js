@@ -6,7 +6,6 @@ import Carousel from "@itseasy21/react-elastic-carousel";
 
 function ProjectCard({Project}) {
   const carouselRef=useRef(null);
- 
   let resetTimeout;
   const maxPage = 3 ; 
   const {title , Link ,Pic1 ,Pic2 , Pic3 , Description} = Project
@@ -15,13 +14,11 @@ function ProjectCard({Project}) {
   }
   return (
     <div className='Project_Contiainer'>
-            <div className="Project_Amazon">
-                  <p>{title}</p>
+            <div >
+                  <p className="Project_Name">{title}</p>
                   <Carousel className='Carousel_comp' 
-                  
+                   enableAutoPlay autoPlaySpeed={1500}
                   ref={carouselRef}
-                
-                    
                       onNextEnd={({ index }) => {
                         clearTimeout(maxPage)
                         if (index + 1 === maxPage) {
@@ -32,22 +29,22 @@ function ProjectCard({Project}) {
                    }}>
                   <div className='Carousel_Component' onClick={goTo}>
                         <img src={Pic1}  className="Carousel_Component image"></img>
-                        <div className="Carousel_Component Link">Code</div>
+                        <div className="Carousel_Component Link">Click to see more !</div>
                     </div>
                   
                     <div className='Carousel_Component' onClick={goTo}>
                         <img src={Pic2}  className="Carousel_Component image"></img>
-                        <div className="Carousel_Component Link">Code</div>
+                        <div className="Carousel_Component Link"> Click to see more !</div>
                     </div>
                    
                     <div className='Carousel_Component' onClick={goTo}>
                         <img src={Pic3} className="Carousel_Component image"></img>
-                        <div className="Carousel_Component Link">Code</div>
+                        <div className="Carousel_Component Link">Click to see more !</div>
                     </div>
                    
                   </Carousel>
-            
-                  <t>{Description}</t>
+                 
+             
             
             </div>
             

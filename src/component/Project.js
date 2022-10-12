@@ -2,9 +2,12 @@ import React  ,{useState}from 'react';
 import "./css/Project.css";
 import {pic_project1} from "./public/config";
 import {FiArrowUpRight} from "react-icons/fi";
-import Pic1 from "../public/Project1_Page1.png";
-import Pic2 from "../public/Project1_Page2.png";
-import Pic3 from "../public/Project1_Page3.png";
+import Project1_Pic1 from "../public/Project1_Page1.png";
+import Project1_Pic2 from "../public/Project1_Page2.png";
+import Project1_Pic3 from "../public/Project1_Page3.png";
+import Project2_Pic1 from "../public/Project2_Pic1.png";
+import Project2_Pic2 from "../public/Project2_Pic2.png";
+import Project2_Pic3 from "../public/Project2_Pic3.png";
 import ProjectCard from "../component/ProjectCard";
 function Project() {
   const id = "Project";
@@ -19,17 +22,17 @@ function Project() {
     title:"Amazon Ez clone",
     Link:"https://github.com/edmundchan70/EZ_Amazon_repo",
     Description:"This project is a clone of Amazon,it is able to add ,  ",
-    Pic1:Pic1,
-    Pic2:Pic2 ,
-    Pic3:Pic3
+    Pic1:Project1_Pic1,
+    Pic2:Project1_Pic2 ,
+    Pic3:Project1_Pic3
   } , 
   project2:{
     title:"Portfolio" ,
     Link:"https://github.com/edmundchan70/Portfolio",
     Description:"This portfolio project mostly display my front end skill",
-    Pic1:Pic1,
-    Pic2:Pic2 ,
-    Pic3:Pic3
+    Pic1:Project2_Pic1,
+    Pic2:Project2_Pic2 ,
+    Pic3:Project2_Pic3
   }
 
 
@@ -37,10 +40,10 @@ function Project() {
  
   return (
     <section className="Project" id={id}>
-            <div className='Project_Intro'>
+           
                 <p>Project</p>
-                <t>Project is...</t>
-            </div>
+                 
+         
             <div className="Project_Button">
                 <button className={tab? "Button_Left active" : "Button_Left"}
                 onClick={handleClick} >1</button>
