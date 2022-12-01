@@ -61,7 +61,7 @@ function Home() {
           
       
       </div>
-      <a href='/Resume.pdf' download={true} id="download" hidden={true}></a>
+      <a href='/resume_Oct10_2022.pdf' download={true} id="download" hidden={true}></a>
       <button className='button-85' onClick={
         (e) =>{
           e.preventDefault();
