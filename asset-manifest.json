@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.17b1868d.css",
-    "main.js": "/Portfolio/static/js/main.6708b6a7.js",
-    "static/media/Project1_Page3.png": "/Portfolio/static/media/Project1_Page3.33986a6146a632023e0a.png",
-    "static/media/Project2_Pic1.png": "/Portfolio/static/media/Project2_Pic1.ed98d731bfe0e0071ae4.png",
-    "static/media/Project2_Pic2.png": "/Portfolio/static/media/Project2_Pic2.231dc2a89ffeabc5fc4c.png",
-    "static/media/Project2_Pic3.png": "/Portfolio/static/media/Project2_Pic3.38880dd8ce77d5ca9fde.png",
-    "static/media/Project1_Page1.png": "/Portfolio/static/media/Project1_Page1.157a4eec30ca9095d8c2.png",
-    "static/media/Project1_Page2.png": "/Portfolio/static/media/Project1_Page2.7e083e37a2b53bdfe6e8.png",
-    "index.html": "/Portfolio/index.html",
-    "main.17b1868d.css.map": "/Portfolio/static/css/main.17b1868d.css.map",
-    "main.6708b6a7.js.map": "/Portfolio/static/js/main.6708b6a7.js.map"
+    "main.css": "./static/css/main.9686c7d7.css",
+    "main.js": "./static/js/main.8588647b.js",
+    "static/media/Project1_Page3.png": "./static/media/Project1_Page3.33986a6146a632023e0a.png",
+    "static/media/Project2_Pic1.png": "./static/media/Project2_Pic1.ed98d731bfe0e0071ae4.png",
+    "static/media/LearnReact.png": "./static/media/LearnReact.015285666626e3dc6beb.png",
+    "static/media/Project2_Pic2.png": "./static/media/Project2_Pic2.231dc2a89ffeabc5fc4c.png",
+    "static/media/Project2_Pic3.png": "./static/media/Project2_Pic3.38880dd8ce77d5ca9fde.png",
+    "static/media/HelloWorld.png": "./static/media/HelloWorld.7977dde6fd80d6ff2f5a.png",
+    "static/media/Project1_Page1.png": "./static/media/Project1_Page1.157a4eec30ca9095d8c2.png",
+    "static/media/initPage.png": "./static/media/initPage.e6e7b4dc67faeb2ab7cb.png",
+    "static/media/Remove.png": "./static/media/Remove.d7141640d55769017883.png",
+    "static/media/Project1_Page2.png": "./static/media/Project1_Page2.7e083e37a2b53bdfe6e8.png",
+    "static/media/checkNodeNpm.png": "./static/media/checkNodeNpm.dcead82b9d9daa2604cb.png",
+    "static/media/npx.png": "./static/media/npx.723b79cae0ab3b8f7736.png",
+    "index.html": "./index.html",
+    "main.9686c7d7.css.map": "./static/css/main.9686c7d7.css.map",
+    "main.8588647b.js.map": "./static/js/main.8588647b.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b1868d.css",
-    "static/js/main.6708b6a7.js"
+    "static/css/main.9686c7d7.css",
+    "static/js/main.8588647b.js"
   ]
 }
