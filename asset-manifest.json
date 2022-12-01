@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EZ_Amazon_repo/static/css/main.17b1868d.css",
-    "main.js": "/EZ_Amazon_repo/static/js/main.4e3fad72.js",
-    "static/media/Project1_Page3.png": "/EZ_Amazon_repo/static/media/Project1_Page3.33986a6146a632023e0a.png",
-    "static/media/Project2_Pic1.png": "/EZ_Amazon_repo/static/media/Project2_Pic1.ed98d731bfe0e0071ae4.png",
-    "static/media/Project2_Pic2.png": "/EZ_Amazon_repo/static/media/Project2_Pic2.231dc2a89ffeabc5fc4c.png",
-    "static/media/Project2_Pic3.png": "/EZ_Amazon_repo/static/media/Project2_Pic3.38880dd8ce77d5ca9fde.png",
-    "static/media/Project1_Page1.png": "/EZ_Amazon_repo/static/media/Project1_Page1.157a4eec30ca9095d8c2.png",
-    "static/media/Project1_Page2.png": "/EZ_Amazon_repo/static/media/Project1_Page2.7e083e37a2b53bdfe6e8.png",
-    "index.html": "/EZ_Amazon_repo/index.html",
-    "main.17b1868d.css.map": "/EZ_Amazon_repo/static/css/main.17b1868d.css.map",
-    "main.4e3fad72.js.map": "/EZ_Amazon_repo/static/js/main.4e3fad72.js.map"
+    "main.css": "/EZ_Amazon_repo/public/index.html/static/css/main.17b1868d.css",
+    "main.js": "/EZ_Amazon_repo/public/index.html/static/js/main.0054f755.js",
+    "static/media/Project1_Page3.png": "/EZ_Amazon_repo/public/index.html/static/media/Project1_Page3.33986a6146a632023e0a.png",
+    "static/media/Project2_Pic1.png": "/EZ_Amazon_repo/public/index.html/static/media/Project2_Pic1.ed98d731bfe0e0071ae4.png",
+    "static/media/Project2_Pic2.png": "/EZ_Amazon_repo/public/index.html/static/media/Project2_Pic2.231dc2a89ffeabc5fc4c.png",
+    "static/media/Project2_Pic3.png": "/EZ_Amazon_repo/public/index.html/static/media/Project2_Pic3.38880dd8ce77d5ca9fde.png",
+    "static/media/Project1_Page1.png": "/EZ_Amazon_repo/public/index.html/static/media/Project1_Page1.157a4eec30ca9095d8c2.png",
+    "static/media/Project1_Page2.png": "/EZ_Amazon_repo/public/index.html/static/media/Project1_Page2.7e083e37a2b53bdfe6e8.png",
+    "index.html": "/EZ_Amazon_repo/public/index.html/index.html",
+    "main.17b1868d.css.map": "/EZ_Amazon_repo/public/index.html/static/css/main.17b1868d.css.map",
+    "main.0054f755.js.map": "/EZ_Amazon_repo/public/index.html/static/js/main.0054f755.js.map"
   },
   "entrypoints": [
     "static/css/main.17b1868d.css",
-    "static/js/main.4e3fad72.js"
+    "static/js/main.0054f755.js"
   ]
 }
