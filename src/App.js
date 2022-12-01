@@ -3,7 +3,7 @@ import Sidebar from "./component/Sidebar";
 import Home from "./pages/Home";
  
 import "./App.css";
- 
+ import AboutReact from "./pages/AboutReact"
 import About from "./pages/About"
 import ContactMe from "./pages/ContactMe"
 import Project from './component/Project';
@@ -19,6 +19,7 @@ function App() {
             <Home />
             <About />
             <Project />
+            <AboutReact /> 
           </section>
  );
 }

@@ -28,16 +28,19 @@ function ProjectCard({Project}) {
                         }
                    }}>
                   <div className='Carousel_Component' onClick={goTo}>
+                    <p>{Description[0]}</p>
                         <img src={Pic1}  className="Carousel_Component image"></img>
                         <div className="Carousel_Component Link">Click to see more !</div>
                     </div>
                   
                     <div className='Carousel_Component' onClick={goTo}>
+                    <p>{Description[1]}</p>
                         <img src={Pic2}  className="Carousel_Component image"></img>
                         <div className="Carousel_Component Link"> Click to see more !</div>
                     </div>
                    
                     <div className='Carousel_Component' onClick={goTo}>
+                    <p>{Description[2]}</p>
                         <img src={Pic3} className="Carousel_Component image"></img>
                         <div className="Carousel_Component Link">Click to see more !</div>
                     </div>

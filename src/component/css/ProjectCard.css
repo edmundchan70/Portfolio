@@ -73,3 +73,8 @@ img{
     40% {transform: translateY(-30px);} 
     60% {transform: translateY(-15px);} 
  } 
+ p{
+  background: linear-gradient( to right, hsl(98 100% 62%), hsl(204 100% 59%) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
