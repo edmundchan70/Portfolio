@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@itseasy21/react-elastic-carousel": "^0.12.3",
     "@testing-library/jest-dom": "^5.16.5",
