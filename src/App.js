@@ -14,11 +14,7 @@ function App() {
  
  return (
         <section id="SkillSet" className='App'>
-          
-            <Sidebar />
-            <Home />
-            <About />
-            <Project />
+        
             <AboutReact /> 
           </section>
  );
