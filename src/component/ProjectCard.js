@@ -17,7 +17,7 @@ function ProjectCard({Project}) {
             <div >
                   <p className="Project_Name">{title}</p>
                   <Carousel className='Carousel_comp' 
-                   enableAutoPlay autoPlaySpeed={2000}
+                   enableAutoPlay autoPlaySpeed={5000}
                   ref={carouselRef}
                       onNextEnd={({ index }) => {
                         clearTimeout(maxPage)

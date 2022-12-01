@@ -33,7 +33,7 @@ function AboutReact() {
     Link: "https://reactjs.org/docs/create-a-new-react-app.html",
     Description:["GO to app.js , Remove the high-lighted part ",
                  "Start writing your own wepage by adding html and css code! ",
-                 "Learn more "],
+                 "Problem? Yeah , since react is built in js , so things get pretty messy when you first learn it.But for most of the question , u just need to google/stackoverflow it. "],
     Pic1:build_pic1,
     Pic2:build_pic2 ,
     Pic3:build_pic3
@@ -54,7 +54,7 @@ function AboutReact() {
             <div className="ProjectCard">
                       <ProjectCard  Project={tab ?  react.install : react.build}/>
                 </div>
-        
+
     </section>
   )
    
